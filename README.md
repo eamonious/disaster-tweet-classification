@@ -1,12 +1,13 @@
-[Please note!!! a fully rendered version of the Project Workbook can be viewed at this link](https://nbviewer.jupyter.org/gist/eamonious/5f9780bc4c0f7ed8aa77c497d1cef699)
+[PLEASE NOTE: A fully-rendered version of the project workbook can be viewed here](https://nbviewer.jupyter.org/gist/eamonious/a43190248f77f5641ba1d49d80e76a67)
 
 
-# Utilizing Social Media to alert about new disasters and their nature
+# Leveraging Social Media To Alert Emergency Response Personnel During Disasters
 
 ### Data Science Problem:
-During disasters, many people are in situations where first responders that need urgent  help. Ex: many people call 911 or manually scour through twitter data looking to filter through which situations need immediate assistance or not.
+In this project we sought to make initial steps toward designing and implementing a web-tool or an app for rapid alert and notification about a disastrous event, in close to real time. The tool ideally would alert about the event, similar, for example, to earthquake or tsunami warnings that appear on Google's home page immediately after a major disaster. While traditional methods for alerting on such events rely on official information derived from official sources (e.g. USGS), this tool will utilize social media activity to identify these events and alert when an event first occurs.
 
-How can we utilize social media to design a tool that will identify disaster  events in real time using geo-location to bring attention to urgent disaster tweets?
+The question we look at primarily here is, given a sea of text content from social media platforms, how do you identify what is relevant information for emergency response personnel? And what sort of implementation would be valuable?
+
 
 ##  Readme information
 ### Datasets/Resources used:
@@ -38,11 +39,13 @@ Test data:  Pulled a random sample of ~40000 of the two million tweets after tha
 
 ### Executive Summary:
 
-Our primary takeaways in this project were as follows:
+Our primary takeaways in this project thus far are as follows:
 
-Despite initial setbacks, we were able to arrive at a satisfying and effective two-phase process for identifying critical disaster tweets out of the sea of all incoming tweets on social media. We were pleased with how well we were able to isolate potentially relevant tweets from a sea of test data. We also satisfying visualized what an interface for receiving geotagged tweets in real-time might look like, although we expect a more integrated and functional mapping software than Tableau might be necessary for real-world live implementation. Finally, we were able to demonstrate proof of concept on live-streaming capture of tweets. Given time to fully utilise the scope of the Sandy dataset, we could have made improvements on our existing model. But more to the point, given unrestricted access to the data of Twitter, let alone Facebook, Snapchat, Instagram (all of which FEMA would likely have in the hypothetical scenario where they would implement this process)... I feel we have demonstrated that with sufficient access, it would be possible to build out a very useful and accurate geo-feed of emergency response information in the area of an ongoing disaster.
+Despite initial setbacks, we were able to arrive at a satisfying and effective two-phase process for identifying critical disaster tweets out of the sea of all incoming tweets on social media. We were pleased with how well we were able to isolate potentially relevant tweets from a sea of test data. We also successfully visualized what an interface for receiving geotagged tweets in real-time might look like, although we expect a more integrated and multi-functional mapping software than Tableau might be necessary for real-world implementation. Finally, we were able to demonstrate proof-of-concept on live-streaming capture of tweets. 
 
-All of this bodes well for future expansion of the project. Other directions we might go with more time include attempting to involve another social media platform, or locate a database of tweets from a disaster scenario other than a hurricane to try and diversify our filtering process. We also would like to try and improve predictive accuracy by use of Words2Vec, which is well equipped to locate similar types of tweets (e.g. critical tweets) without explicit labeling
+Given unrestricted access to the data available via Twitter, let alone Facebook, Snapchat, Instagram (all of which FEMA or a similar organization would likely have in the hypothetical scenario where they would implement this process), I feel we have demonstrated that it would be absolutely possible to build out a very useful and accurate geo-feed of emergency response information in the area of an ongoing disaster.
+
+All of this bodes well for future expansion of the project. Other directions we might go with more time include attempting to involve another social media platform, or locate a database of tweets from a disaster scenario other than a hurricane to try and diversify our filtering process. We also would like to try and improve predictive accuracy by use of Words2Vec, which is well equipped to locate similar types of tweets (e.g. critical tweets) without explicit labeling.
 
 Github directories of team:
 [Alex Nguyen](https://github.com/aL1asWIN/) 
